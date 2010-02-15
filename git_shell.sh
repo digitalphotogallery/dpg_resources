@@ -6,5 +6,6 @@ git add .
 git add -u
 DATE=`date "+%Y-%m-%d - %H:%M:%S"`
 git commit -m "$DATE"
+git push origin master
 git fsck --full
 git gc --aggressive
